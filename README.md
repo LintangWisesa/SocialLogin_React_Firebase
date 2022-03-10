@@ -2,6 +2,50 @@
 
 # __React.js Social Login Using Firebase Authentication__
 
+[![Video](https://img.youtube.com/vi/fITbRirO8Ug/0.jpg)](https://www.youtube.com/watch?v=fITbRirO8Ug)
+
+__[Firebase](https://firebase.google.com/)__ is a platform developed by Google for creating mobile and web applications. It was originally an independent company founded in 2011. In 2014, Google acquired the platform and it is now their flagship offering for app development. In this tutorial we'll learn how to create social login feature on React.js application using Firebase Authentication. We'll apply social login feature from popular providers like Google, Facebook, Twitter and GitHub.
+
+__⭐ Requirements:__
+- 💳 [Firebase & Google](https://firebase.google.com/) account
+- 💳 [Facebook & Meta for Developers](https://developers.facebook.com) account
+- 💳 [Twitter & Twitter Developer](https://developer.twitter.com) account
+- 💳 [GitHub](https://github.com/) account
+
+__⭐ How to use this repo:__
+
+
+1. Clone this repo:
+
+    ```bash
+    $ git clone https://github.com/LintangWisesa/SocialLogin_React_Firebase.git
+
+    $ cd SocialLogin_React_Firebase
+    ```
+
+2. Create Firebase project then go to Firebase Authentication, add the Firebase SDK on React app. Copy your credential and insert it on React ```config/fire.js```
+
+    ```javascript
+    const firebaseConfig = {
+        apiKey: "your_firebase_apiKey",
+        authDomain: "your_firebase_authDomain",
+        projectId: "your_firebase_projectId",
+        storageBucket: "your_firebase_storageBucket",
+        messagingSenderId: "your_firebase_messagingSenderId",
+        appId: "your_firebase_appId"
+    };
+    ```
+
+3. Enable login Google, Facebook, Twitter & GitHub provider on Firebase Authentication. Make sure you have `application id` & `seckret key` for Facebook, Twitter & GitHub. You can find them on [Meta for Developers](https://developers.facebook.com), [Twitter Developer Platform](https://developer.twitter.com) and [GitHub Developer Settings](https://github.com/).
+
+4. Run React locally:
+    
+    ```bash
+    $ npm start
+    ```
+
+__⭐ Enjoy!__
+
 <hr>
 
 #### 🍔 Lintang Wisesa
